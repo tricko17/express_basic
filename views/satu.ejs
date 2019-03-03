@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <title><%= orang.nama %></title>
+    </head>
+    <body>
+        <h1>Welcome <%= orang.nama %></h1>
+        <p>Selamat Datang Di Profile <%= orang.nama %></p>
+        <p>Umur <%= orang.umur %></p>
+        <% for(i=0; i<=3; i++){ %>
+        <p><%= orang.people[i]; %></p>
+        <% } %>
+
+    </body>
+</html>
